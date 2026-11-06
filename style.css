@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to left, rgb(10, 194, 226), black,blue, black,blue, black,blue, black,blue, black, blue, black,blue, black,blue, black,blue, black, blue, black,blue, black,blue, black, blue, black, blue, black,blue, black,blue, black,blue, black,blue, black, blue, black,blue, black,blue, black,blue, black, blue, black,blue, black,blue, black, blue, black);
+    background: linear-gradient(to bottom, rgb(255, 115, 0), rgb(33, 33, 37));
+    position: relative;
+}
+.f1, .f2, .f3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50vh;
+    position: absolute;
+}
+.f1{
+    background-color: rgba(255, 0, 8, 0.982);
+    left: 550px;
+    top: 350px;
+    animation-name: farrux;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.1s;
+}
+.f2{
+    background-color: rgb(221, 255, 0);
+    left: 700px;
+    top: 350px;
+    animation-name: farrux;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.4s;
+}
+.f3{
+    background-color: rgb(0, 255, 8);
+    left: 850px;
+    top: 350px;
+    animation-name: farrux;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.7s;
+}
+@keyframes farrux{
+from{
+    margin-top: 0;
+}
+to{
+    margin-top: -100px;
+}
+}
